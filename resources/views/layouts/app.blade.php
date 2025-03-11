@@ -15,6 +15,11 @@
     <div class="container mt-4">
         @yield('content')
     </div>
+    <!-- jQuery (Required for AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+   
+   <!-- Yield child view scripts -->
+@yield('scripts')
 </body>
 </html>
